@@ -4,22 +4,11 @@ project: Silicon Linux
 
 <html>
 <HEAD>
-<link href="./style.css" type="text/css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
+    {% include heading.html %}
   <TITLE>Support | Silicon Linux</TITLE>
 </HEAD>
 <BODY>
-  <div id="navigation">
-      <ul>
-        <li class="nav logo">Silicon Linux</li>
-        <li class="nav"><a class="nav" href="./index.html">HOME</a></li>
-        <li class="nav"><a class="nav"href="./download.html">DOWNLOAD</a></li>
-        <li class="active nav"><a class="nav" href="./index.html">SUPPORT</a></li>
-        <li class="nav"><a class="nav"href="https://github.com/silicon-linux">GITHUB</a></li>
-      </ul>
-    </div>
+  {% include navigator.html %}
     <h1 class="subtitle">Silicon Linux Support</h1>
     <p>
       <iframe class="iframe" src="https://titanembeds.com/embed/502598767510290432?css=discord&defaultchannel=502881083684028426&username=Website%20User" height="520" width="300" frameborder="5" align="right"></iframe>
@@ -27,8 +16,6 @@ project: Silicon Linux
       <h2 class="Question">Q: What is Silicon Linux?</h2>
       <h2 class="answer">A: It's a linux distro by Alee14.</h2>
       </p>
-<div class="footer">
-  <p>&copy; Copyright 2018, Silicon Linux Development Group.   <a href="https://github.com/silicon-linux/silicon-linux.github.io/issues">Report a bug.</a></p>
-</div>
+  {% include footer.html %}
 </BODY>
 </html>
