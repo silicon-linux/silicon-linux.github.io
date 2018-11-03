@@ -44,12 +44,18 @@ a {
     margin: -1px;
 }
 
-ul {
+ul.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: whitesmoke;
+}
+
+li.list-blog{
+    text-decoration: none;
+    float: left;
+    display: block;
 }
 
 li.logo{
