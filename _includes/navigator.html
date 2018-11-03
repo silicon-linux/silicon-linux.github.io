@@ -1,10 +1,10 @@
 <div id="navigation">
     <ul class="navbar">
       <li class="nav logo">Silicon Linux</li>
-      <li class="nav"><a class="nav" href="/" {% if page.url == "/" %}style="background-color: #1f8e42;"{% endif %}>HOME</a></li>
-      <li class="nav"><a class="nav"href="/download.html" {% if page.url == "/download.html" %}style="background-color: #1f8e42;"{% endif %}>DOWNLOAD</a></li>
-      <li class="nav"><a class="nav" href="/support.html" {% if page.url == "/support.html" %}style="background-color: #1f8e42;"{% endif %}>SUPPORT</a></li>
-      <li class="nav"><a class="nav" href="/blog.html" {% if page.url == "/blog.html" %}style="background-color: #1f8e42;"{% endif %}>BLOG</a></li>
+      <li class="nav" {% if page.url == "/" %}style="background-color: #1f8e42;"{% endif %}><a class="nav" href="/">HOME</a></li>
+      <li class="nav" {% if page.url == "/download.html" %}style="background-color: #1f8e42;"{% endif %}><a class="nav"href="/download.html">DOWNLOAD</a></li>
+      <li class="nav" {% if page.url == "/support.html" %}style="background-color: #1f8e42;"{% endif %}><a class="nav" href="/support.html">SUPPORT</a></li>
+      <li class="nav" {% if page.url == "/blog.html" %}style="background-color: #1f8e42;"{% endif %}><a class="nav" href="/blog.html">BLOG</a></li>
       <li class="nav"><a class="nav"href="https://github.com/silicon-linux">GITHUB</a></li>
     </ul>
   </div>
