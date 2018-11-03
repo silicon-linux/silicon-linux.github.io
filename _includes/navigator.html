@@ -1,5 +1,5 @@
 <div id="navigation">
-    <ul class="navbar" id="myTopnav">
+    <ul class="navbar">
       <li class="nav logo">Silicon Linux</li>
       <li class="nav" {% if page.url == "/" %}style="background-color: #1f8e42;"{% endif %}><a class="nav" href="/">HOME</a></li>
       <li class="nav" {% if page.url == "/download.html" %}style="background-color: #1f8e42;"{% endif %}><a class="nav"href="/download.html">DOWNLOAD</a></li>
@@ -14,7 +14,7 @@
 
 <script>
 function myFunction() {
-    var x = document.getElementById("myTopnav");
+    var x = document.getElementById("navigation");
     if (x.className === "nav") {
         x.className += " responsive";
     } else {
