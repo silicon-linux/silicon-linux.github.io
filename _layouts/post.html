@@ -10,7 +10,7 @@
   {% include navigator.html %}
 
   <h1>{{ page.title }}</h1>
-  <p><b>{{ page.date | date_to_string }} | {{ page.author }}</b></p>
+  <p><b>{{ page.date | date_to_string }} | By: {{ page.author }}</b></p>
 
   {{ content }}
 
