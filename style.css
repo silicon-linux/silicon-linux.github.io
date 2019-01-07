@@ -100,9 +100,6 @@ a.nav{
     text-decoration: none;
 }
 
-li a:hover {
-    background-color: gray;
-}
 
 .active {
     background-color: #1f8e42;
