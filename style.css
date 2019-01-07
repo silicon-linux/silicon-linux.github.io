@@ -84,9 +84,6 @@ li.logo{
     font-weight: bold;
     color: black;
 }
-ul.navbar:hover {
-    background-color: gray;
-}
 li.nav {
     float: left;
     display: block;
@@ -98,6 +95,10 @@ li.nav {
 a.nav{
     color: black;
     text-decoration: none;
+}
+
+li a:hover {
+    background-color: gray;
 }
 
 .active {
@@ -117,6 +118,3 @@ a.nav{
 .nav .icon {
     display: none;
 }
-
- 
- 
