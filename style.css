@@ -90,8 +90,11 @@ li.nav {
     color: black;
     text-align: center;
     text-decoration: none;
+    padding: 14px 16px;
 }
-
+li.nav:hover{
+    background-color: grey;
+}
 a.nav{
     color: black;
     text-decoration: none;
