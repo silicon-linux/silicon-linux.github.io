@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-dark {
+    background-color: #333333 !important;
+}
+
+.footer {
+    height: 40px;
+}
+
+.wrapper {
+    min-height: 100vh;
+}
+
+p {
+    margin: 0px;
+}

@@ -1,19 +1,40 @@
----
-project: Silicon Linux
----
-<html>
-	<head>
-		{% include heading.html %}
-		<title>Silicon Linux FAQ</title>
-	</head>
-	<body>
-		{% include navigator.html %}
-		<h1 class="subtitle">Silicon Linux FAQ</h1>
-		<p>
-			<h1>Frequently Asked Questions:</h1>
-			<h2 class="Question">Q: What is Silicon Linux?</h2>
-			<h2 class="answer">A: It's a linux distro by Alee14.</h2>
-		</p>
-		{% include footer.html %}
-	</body>
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./assets/css/index.css">
+        <link rel="shortcut icon" type="image/x-icon" href="./assets/images/favicon.ico">
+        <title>Silicon Linux</title>
+    </head>
+    <body class="bg-dark text-white">
+        <div class="wrapper">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand d-flex align-items-center" href="#"><img src="assets/images/silicon-linux-translogo.png" width="32px;" height="32px;" class="mr-2">Silicon Linux</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="./index.html">Home</a>
+                        <a class="nav-item nav-link active" href="./faq.html">FAQ</a>
+                        <a class="nav-item nav-link" href="./about.html">About</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="container">
+                <h1 class="text-center mb-5">FAQ</h1>
+                <h2>Q: What is Silicon Linux?</h2>
+                <h2 class="font-italic">A: Silicon Linux is a linux distro created by Alee14.</h2>
+            </div>
+        </div>
+        <div class="footer w-100 d-flex flex-column justify-content-center">
+            <p class="text-center">&#169; Copyright 2019, Silicon Linux Development Group. <a href="https://github.com/silicon-linux/silicon-linux.github.io/issues" class="text-white">Report a bug.</a></p>
+        </div>
+        <!-- Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </body>
 </html>
