@@ -1,21 +1,13 @@
-<div id="navigation">
-    <ul class="navbar">
-        <li class="nav logo">Silicon Linux</li>
-        <li class="nav" {% if page.url == "/" %}style="background-color: #1f8e42;"{% endif %}><a class="nav" href="/">HOME</a></li>
-        <li class="nav" {% if page.url == "/download.html" %}style="background-color: #1f8e42;"{% endif %}><a class="nav"href="/download.html">DOWNLOAD</a></li>
-        <li class="nav" {% if page.url == "/blog.html" %}style="background-color: #1f8e42;"{% endif %}><a class="nav" href="/blog.html">BLOG</a></li>
-        <li class="nav" {% if page.url == "/faq.html" %}style="background-color: #1f8e42;"{% endif %}><a class="nav" href="/faq.html">FAQ</a></li>
-        <li class="nav" {% if page.url == "/about.html" %}style="background-color: #1f8e42;"{% endif %}><a class="nav" href="/about.html">ABOUT</a></li>
-    </ul>
-</div>
-
-<script>
-    function myFunction() {
-        var x = document.getElementById("navigation");
-        if (x.className === "nav") {
-            x.className += " responsive";
-        } else {
-            x.className = "nav";
-        }
-    }
-</script>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand d-flex align-items-center" href="#"><img src="assets/images/silicon-linux-translogo.png" width="32px;" height="32px;" class="mr-2">Silicon Linux</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" {% if page.url == "/" %}style="color: #ffffff;"{% endif %} href="/">Home</a>
+                <a class="nav-item nav-link" {% if page.url == "/faq.html" %}style="color: #ffffff;"{% endif %} href="/faq">FAQ</a>
+                <a class="nav-item nav-link" {% if page.url == "/about.html" %}style="color: #ffffff;"{% endif %} href="/about">About</a>
+            </div>
+        </div>
+</nav>
