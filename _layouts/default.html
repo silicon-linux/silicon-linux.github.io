@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        {% include heading.html %}
+        <title>{{ page.title }} | Silicon Linux</title>
+    </head>
+    <body class="bg-dark text-white">
+        <div class="wrapper">
+            {% include navigator.html %}
+            <div class="container">
+                {{ content }}
+            </div>
+        </div>
+
+        {% include footing.html %}
+        {% include footer.html %}
+    </body>
+</html>

@@ -1,0 +1,13 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand d-flex align-items-center" href="#"><img src="assets/images/silicon-linux-translogo.png" width="32px;" height="32px;" class="mr-2">Silicon Linux</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" {% if page.url == "/" %}style="color: #ffffff;"{% endif %} href="/">Home</a>
+                <a class="nav-item nav-link" {% if page.url == "/faq.html" %}style="color: #ffffff;"{% endif %} href="/faq">FAQ</a>
+                <a class="nav-item nav-link" {% if page.url == "/about.html" %}style="color: #ffffff;"{% endif %} href="/about">About</a>
+            </div>
+        </div>
+</nav>
